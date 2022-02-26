@@ -41,9 +41,6 @@ app.use(express.json());
 app.use(express.urlencoded({extended:true}))
 
 
-
-
-
 // Method override
 app.use(
   methodOverride(function (req, res) {
